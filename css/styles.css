@@ -1,0 +1,153 @@
+
+:root {
+  --bg-color: rgb(191, 245, 159);
+  --text-color: #222;
+}
+
+.page-body {
+  padding-top: 50px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body-dark {
+  --bg-color: #222;
+  --text-color: #fff;
+}
+
+.body-dark .modal-more{
+  background-color: #222;
+  color: #fff;
+}
+
+.description {
+  color: #222;
+}
+
+.body-dark .description {
+  color: #fff;
+}
+
+.input-group {
+  border: 0;
+  border-bottom: 2px solid rgb(201, 110, 236);
+}
+
+
+.theme-btn{
+  width: 135px;
+}
+
+.site-header {
+  position: fixed;
+  align-items: center;
+  margin: 0;
+  margin-top: -100px;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(232, 194, 233);
+}
+
+.logo-link {
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.header-site-heading {
+  margin: 0;
+}
+
+.logo-link:hover {
+  transform: scale(1.2);
+}
+
+.search-job-box {
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.site-main {
+
+}
+
+.jobs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  margin-bottom: 30px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 10px rgb(201, 110, 236);
+  border-radius: 20px;
+  flex-grow: 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.jobs-item:hover {
+  transform: scale(1.1);
+}
+
+.js-search-form {
+
+}
+
+.search-input-group {
+  display: block;
+  width: 140px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(47, 154, 255);
+}
+
+.search-btn{
+  width: 140px;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.footer-content {
+  border-top: 2px solid rgb(47, 154, 255);
+
+}
+
+.copyright-box {
+  display: flex;
+  align-items: center;
+}
+
+.copyright-text {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.socilal-box {
+  display: flex;
+}
+
+.social-link {
+  vertical-align: baseline;
+  transition: 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.3);
+}
+
+.social-img {
+  display: block;
+  margin-left: 8px;
+}
